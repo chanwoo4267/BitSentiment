@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1a1a1c;
+  color: #fff;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 1100px;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  min-width: 290px;
+}
+
+.header-rank {
+  margin-right: 10px;
+  width: 50px;
+  align-items: center;
+}
+
+.header h3 {
+  align-items: center;
+  font-size: 18px;
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header-symbol {
+  width: 150px;
+}
+
+.header-data {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-price {
+  width: 150px;
+}
+
+.header-volume {
+  width: 150px;
+}
+
+.header-percent {
+  width: 150px;
+}
+
+.header-sentiment {
+  width: 150px;
+}
+
+.header-marketcap {
+  width: 150px;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64pxpx;
+  color: #fff;
+}
+
+.bitsentiment-logo {
+  margin-bottom: 32px;
+  text-align: center;
+  background: -webkit-linear-gradient(left, #ac32e4, #4801ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.coin-search {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  background-image: linear-gradient(
+    -225deg,
+    #ac32e4 0%,
+    #7918f2 48%,
+    #4801ff 100%
+  );
+
+  color: #e2e2e2;
+}
+
+.coin-input::placeholder {
+  color: #e2e2e2;
+}
+
+.fng {
+  width: 500x;
+}
+
+.fng-score {
+  text-align: center;
+}
